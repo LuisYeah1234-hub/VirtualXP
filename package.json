@@ -1,0 +1,17 @@
+{
+  "name": "virtualxp-main",
+  "version": "1.0.0",
+  "description": "Virtual Machine running on a Web browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.2.3",
+    "electron-builder": "^26.0.12"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "appId": "com.lrusso.virtualxp",
+    "productName": "VirtualXP",
+    "directories": {
+        "output": "out",
+        "buildResources": "build-res"
+    },
+    "files": [
+      "index.js",
+      "package.json",
+      "VirtualXP.htm",
+      "VirtualXP.iso",
+      "VirtualXP.js",
+      "VirtualXP.json",
+      "VirtualXP.wasm",
+      "VirtualXPBIOS.bin",
+      "VirtualXPFavIcon_16x16.png",
+      "VirtualXPFavIcon_192x192.png",
+      "VirtualXPFavIcon_512x512.png",
+      "VirtualXPLoader.js",
+      "VirtualXPVGA.bin",
+      "worker.js"
+    ],
+    "dmg": {
+        "contents": [
+            {
+                "x": 100,
+                "y": 100
+            },
+            {
+                "x": 300,
+                "y": 100,
+                "type": "link",
+                "path": "/Applications"
+            }
+        ]
+    },
+    "mac": {
+        "target": "dmg"
+      },
+    "win": {
+        "target": "nsis"
+    },
+    "linux": {
+        "target": "AppImage"
+    }
+}
