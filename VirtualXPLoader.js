@@ -26,6 +26,7 @@
 
         this.onprogress = options["onprogress"] || function (a, b, c) { };
     }
+        global.Halfix = Halfix;
 
     var _cache = [];
 
